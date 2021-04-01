@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Seu Ingresso</title>
+    <script src="../scripts/app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <header>Sua inscrição</header>
+
+        <div class="receipt">
+          <div class="receiptWrapper">
+            <h3 class="receiptBodySecondary">Seus dados de inscrição</h3>
+            <div class="receiptHeader">
+              <h1 class="receiptHeaderPrimary">
+                Inscrição
+              </h1>
+              <div
+                class="receiptHeaderSecondary"
+                id="receiptNumber">
+              </div>
+            </div>
+            <div class="receiptBody">
+              <h3 class="receiptBodySecondary">Nome: </h3>
+              <div id="receiptName"></div>
+              <hr class="dividerRounded">
+              <h3 class="receiptBodySecondary">E-mail: </h3>
+              <div id="receiptEmail"></div>
+              <hr class="dividerRounded">
+              <h3 class="receiptBodySecondary">Evento: </h3>
+              <div id="receiptEvent"></div>
+              <hr class="dividerRounded">
+              <h3 class="receiptBodySecondary">Data: </h3>
+              <div id="receiptDate"></div>
+              <hr class="dividerRounded">
+            </div>
+          </div>
+          <div class="receiptQrCode">
+            <div id="show_qr_code"></div>
+          </div>
+        </div>
+
+        <div class="formButtonBack">
+          <button class="formButtonBackPrimary" onclick="javascript:window.history.back()">
+            Voltar
+          </button>
+          <button class="formButtonSecondary" onclick="javascript:window.print()">
+            Baixar
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

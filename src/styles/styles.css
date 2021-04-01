@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #ECEFF4;
+}
+
+ .container {
+  height: 45rem;
+  width: 65rem;
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+
+  background: #ffffff;
+  box-shadow: rgb(0,0,0, 25%) 1px 4px 6px;
+}
+
+.background > img{
+  height: 45rem;
+  border-radius: 5px;
+}
+
+.form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form > header {
+  padding: 5rem 0 1.25rem 0;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+
+  color: royalblue;
+}
+
+.form > p {
+  padding: 1.25rem 0 1.25rem 0;
+
+  text-align: center;
+}
+
+.formWrapper {
+  display: block;
+  text-align: center;
+}
+
+.formWrapper form > input:not([type="checkbox"]), select {
+  padding: .5rem;
+  margin: .5rem 0 .5rem 0;
+
+  background: #ECEFF4;
+  border: 2px solid #CBD3E2;
+  border-radius: 5px;
+
+  transition: all 0.5s ease;
+}
+
+.formWrapper input:not([type="checkbox"]) {
+  width: 25rem;
+}
+
+.formWrapper select {
+  width: 26.25rem;
+}
+
+.formCheckbox {
+  margin: 1rem 0 2rem 0;
+}
+
+.formCheckbox > input {
+  margin-right: .5rem;
+}
+
+.formCheckbox a {
+  color: royalblue;
+}
+
+
+.formButton {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+.formButtonBack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formWrapper form > input:last-child {
+  padding: 1rem 4em;
+
+  background: royalblue;
+  border: none;
+  border-radius: 5px;
+
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.formButtonPrimary {
+  padding: 1rem 4em;
+
+  background: royalblue;
+  border-radius: 5px;
+
+  left: 30px;
+  width: 425px;
+
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.formButtonBackPrimary {
+  padding: 1rem 4em;
+
+  background: royalblue;
+  border-radius: 5px;
+
+
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.formButtonSecondary {
+  padding: 1rem 4em;
+
+  background: #ECEFF4;
+  border-radius: 5px;
+
+  font-weight: bold;
+}
+
+.receipt {
+  display: flex;
+  align-items: center;
+
+  padding: 2rem;
+  margin: 2.5rem 0 2.5rem 0;
+
+  background: #ECEFF4;
+
+  border-radius: 10px;
+}
+
+.receiptWrapper {
+  padding: 0 2rem 0 0;
+}
+
+.receiptHeader {
+  display: flex;
+}
+
+.receiptHeaderPrimary {
+  padding: 0 1rem 1rem 0;
+
+  font-size: 1.5rem;
+  color: royalblue;
+}
+
+.receiptHeaderSecondary {
+  font-size: 1.5rem;
+}
+
+.receiptBodySecondary {
+  font-size: .80rem;
+  color: #4C566A;
+}
+
+.receiptBodySecondary:not(:first-child) {
+  padding: .5rem 0 0 0;
+}
+
+.receiptQrCode {
+  width: 200px;
+  height: 200px;
+}
+
+.dividerRounded {
+  margin: .5rem 0 0 0;
+
+  border-top: 2px solid #D8DEE9;
+  border-radius: 5px;
+}

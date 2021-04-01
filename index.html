@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Eventos online</title>
+    <script src="./src/scripts/app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <header>Eventos de programação</header>
+        <p>Use seu e-mail para se registrar e participar do evento: </p>
+
+        <div class="formWrapper">
+          <form action="./src/pages/success.html" method="GET">
+            <input id="name" type="text" placeholder="Nome" required/>
+            <br/>
+
+            <input id="email" type="text" placeholder="E-mail" required/>
+            <br/>
+
+            <select id="event" placeholder="Eventos" onchange="pickUpDate()">
+              <option id="1">Python conference 2021</option>
+              <option id="2">C# conference 2021</option>
+              <option id="3">PHP conference 2021</option>
+              <option id="4">Ruby conference 2021</option>
+            </select>
+            <br/>
+
+            <input type="date" disabled id="date-event" value="2021-11-15"/>
+            <br/>
+
+            <div class="formCheckbox">
+              <input type="checkbox" id="checkbox-terms">
+              <label for="checkbox">
+                Eu aceito os <a>Termos</a> de <a>Politica e privacidade</a>
+              </label><br>
+            </div>
+
+            <div class="formButton">
+              <button class="formButtonPrimary" id="registerButton">
+                Registrar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

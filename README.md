@@ -1,4 +1,4 @@
-# qrcode-generator.github.io
+# subscribe-events.github.io
 
 Basic project to generate a registration for an event, saving the data in coookie and generating an access ticket
 

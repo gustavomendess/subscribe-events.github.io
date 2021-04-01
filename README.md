@@ -6,6 +6,8 @@ This is a job for college, so it's so simple!
 
 `System flow:`
 
+creating subscription:
 ![creating subscription:](https://github.com/gustavomendess/subscribe-events.github.io/blob/master/.github/creating_subscription.jpeg?raw=true)
 
+showing inscription:
 ![showing inscription:](https://github.com/gustavomendess/subscribe-events.github.io/blob/master/.github/showing_inscription.jpeg?raw=true)
